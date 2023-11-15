@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-import numpy as np
 from imutils import contours
 from webcolors import rgb_to_name
 color = []
