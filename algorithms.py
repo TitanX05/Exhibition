@@ -70,35 +70,30 @@ def pll1():
             return("Error")
 
 
-def pll2():
-    # print(r)
-    # print(b)
-    # print(g)
-    # print(o)
-    if (r[0] == "r" and r[1] == "r" and r[2] == "r") or (b[0] == "b" and b[1] == "b" and b[2] == "b") or (g[0] == "g" and g[1] == "g" and g[2] == "g") or (o[0] == "o" and o[1] == "o" and o[2] == "y"):
-        return("L' U R U' L U U R' U R U U R'")
-    else:
-        return("F R U' R' U' R U R' F' R U R' U' R' F R F'")
+# def pll2():
+#     # print(r)
+#     # print(b)
+#     # print(g)
+#     # print(o)
+#     if (r[0] == "r" and r[1] == "r" and r[2] == "r") or (b[0] == "b" and b[1] == "b" and b[2] == "b") or (g[0] == "g" and g[1] == "g" and g[2] == "g") or (o[0] == "o" and o[1] == "o" and o[2] == "y"):
+#         return("L' U R U' L U U R' U R U U R'")
+#     else:
+#         return("F R U' R' U' R U R' F' R U R' U' R' F R F'")
 
-oll()
-pll1()
-pll2()
+
 print("Running happened")
 root = Tk()
 root.geometry("180x80")
 root.title("Algorithms")
-a = StringVar
 a = oll()
-b = StringVar
 b = pll1()
-c = StringVar
 #c = pll2()
 frm = ttk.Frame(root)
 frm['padding'] = 10
 frm.grid()
-ttk.Label(frm, text= "L F R'F'L'F R F'").grid(column=0, row=0)
-ttk.Label(frm, text= "F R U R' U' R U R' U' R U R' U'").grid(column=0, row=10)
-ttk.Label(frm,text = "L' U L' U' L' U' L' U L U L L").grid(column=00, row=20)
-
+ttk.Label(frm, text = a).grid(column=0, row=0)
+ttk.Label(frm, text= b).grid(column=0, row=10)
+# ttk.Label(frm,text = c).grid(column=00, row=20)
 #ttk.Label(frm, textvariable=c).grid(column=20, row=20)
 root.mainloop()
+print("Running happened")

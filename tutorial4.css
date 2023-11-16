@@ -57,7 +57,7 @@
     color: #fff;
 }
 .content h1{
-    font-size: 50px;
+    font-size: 70px;
     margin-top: 80px;
 }
 .content p{
@@ -67,9 +67,6 @@
     font-size: 20px;
     padding-left: 20%;
     padding-right: 20%;
-}
-.video{
-    margin: 30%;
 }
 button {
     border-radius: 4px;
@@ -114,8 +111,4 @@ button:hover{
 button:hover:after {
     opacity: 1;
     right: 10px;
-}
-video{
-    width: 20%;
-    height: 20%;
 }
