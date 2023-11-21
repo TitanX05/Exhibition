@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+import numpy as np
 from imutils import contours
 from webcolors import rgb_to_name
 color = []
@@ -8,13 +9,13 @@ cubelineSize = 2
 def getcolor(r,g,b): # compare rgb values and return color
     if (r >= 55 and r <= 200 ) and (g >= 10 and g <= 130) and (b > -1 and b < 65):
         return 'b'
-    elif (r >= 85 and r <= 250 ) and (g >= 85 and g < 255) and (b >= 85 and b < 255):
+    elif (r >= 150 and r <= 250 ) and (g >= 125 and g < 210) and (b >= 125 and b < 200):
         return 'w'
-    elif (r >= 1 and r <= 118 ) and (g > 70 and g < 255) and (b > 83 and b < 255):
+    elif (r >= 40 and r <= 110 ) and (g > 125 and g < 205) and (b > 130 and b < 230):
         return 'y'
     elif (r > 0 and r <= 75 ) and (g >= 25 and g <= 130) and (b > 73 and b < 255):
         return 'o'
-    elif (r >= -1 and r <= 70 ) and (g >= -2 and g < 79) and (b >= 55 and b < 255):
+    elif (r >= 70 and r <= 100 ) and (g >= 50 and g < 100) and (b >= 100 and b < 255):
         return 'r'
     elif (r >= 3 and r <= 125 ) and (g > 35 and g <= 235) and (b > 3  and b <= 170):
         return 'g'
