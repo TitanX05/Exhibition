@@ -7,17 +7,17 @@ color = []
 cubecolor = (0,0,0)
 cubelineSize = 2
 def getcolor(r,g,b): # compare rgb values and return color
-    if (r >= 55 and r <= 200 ) and (g >= 10 and g <= 130) and (b > -1 and b < 65):
+    if (r >= 140 and r <= 185 ) and (g >= 80 and g <= 130) and (b > 3 and b < 75):
         return 'b'
     elif (r >= 150 and r <= 250 ) and (g >= 125 and g < 210) and (b >= 125 and b < 200):
         return 'w'
-    elif (r >= 40 and r <= 110 ) and (g > 125 and g < 205) and (b > 130 and b < 230):
+    elif (r >= 15 and r <= 80 ) and (g > 135 and g < 180) and (b > 145 and b < 200):
         return 'y'
-    elif (r > 0 and r <= 75 ) and (g >= 25 and g <= 130) and (b > 73 and b < 255):
+    elif (r > 15 and r <= 100 ) and (g >= 77 and g <= 145) and (b > 100 and b < 200):
         return 'o'
-    elif (r >= 70 and r <= 100 ) and (g >= 50 and g < 100) and (b >= 100 and b < 255):
+    elif (r >= 55 and r <= 100 ) and (g >= 50 and g < 100) and (b >= 100 and b < 255):
         return 'r'
-    elif (r >= 3 and r <= 125 ) and (g > 35 and g <= 235) and (b > 3  and b <= 170):
+    elif (r >= 70 and r <= 125 ) and (g > 95 and g <= 140) and (b > 40  and b <= 100):
         return 'g'
     
 def drawCube(img, cubesize, cubeshape, start_point): # start_poing (100, 60)
