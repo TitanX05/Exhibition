@@ -2,16 +2,6 @@
     <head>
         <title>Cubing tutorial</title>
         <link rel="stylesheet" href="tutorial2.css">
-        <script>
-            function f(){
-                document.getElementById("s").innerHTML = "The algorithm is U' L' U' L U F U F'"
-                document.getElementById("x").innerHTML = "The next algorithm is used to insert an edge piece above a corner without interrupting the corner piece.Note that the edge piece's end location should be to your left."
-                document.getElementById("image").src = "Imgs/edges.png"
-                document.getElementById("y").innerHTML = "After this the bottom should be like this."
-                document.getElementById("1").style = "display:none"
-                document.getElementById("2").style = "dispaly:inline"
-            }
-        </script>
     </head>
     <body>
         <div class="banner">
@@ -25,18 +15,13 @@
             </div>
             <div class="content">
                 <h1>First 2 layers</h1>
-                <p id = "p1">
-                    The next step to solving the rubik's cube is to align the bottom corners and middle edges correctly.
-                    For this you mainly need 2 algorithms.
-                </p>
-                <div class = "insert"><p id = "x">The first algorithm is used to insert the corner into its place once its above its respective corner.
+                <div ><p >The first algorithm is used to insert the corner into its place once its above its respective corner.
                     Note that the white face of the specified corner piece is to face away from you.</p>
-                    <p id = "s">The algorithm is R U R'</p>
-                    <p id ="y">After this step the bottom of the cube should look like this:</p>
-                <img id="image" src="Imgs/corner.png"></img>
+                    <p >The algorithm is R U R'</p>
+                    <p >After this step the bottom of the cube should look like this:</p>
+                <img class ="image" src="Imgs/corner.png"></img>
             </div>
-            <button class = "button" id = "1" onclick="f()">Next</button>
-            <a href="Tutorial4.html"><button id = "2" style="display: none;">Next</button></a>
+            <a href="Tutorial3.html"><button class = "button">Next</button></a>
         </div>
     </body>
 </html>
