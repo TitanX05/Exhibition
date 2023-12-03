@@ -95,7 +95,7 @@
   padding-left: 40%;
   padding-right: 40%;
 }
-button {
+.button {
   border-radius: 4px;
   background-color: #009688;
   border: none;
@@ -114,13 +114,13 @@ button {
   bottom: 0;
   right: 0;
 }
-button {
+.button {
   cursor: pointer;
   display: inline-block;
   transition: 0.5s;
 }
 
-button:after {
+.button:after {
   content: "»";
   position: absolute;
   opacity: 0;
@@ -129,12 +129,12 @@ button:after {
   transition: 0.5s;
 }
 
-button:hover {
+.button:hover {
   padding-right: 24px;
   padding-left: 8px;
 }
 
-button:hover:after {
+.button:hover:after {
   opacity: 1;
   right: 10px;
 }
