@@ -1,24 +1,28 @@
 <html>
     <head>
-        <title>Cubing guide</title>
-        <link rel="stylesheet" href="Tutorial3.css">
-        <script  src="Record.js"></script>
+        <title>Cubing tutorial</title>
+        <link rel="stylesheet" href="index.css">
     </head>
-    <body></section>
+    <body>
         <div class="banner">
             <div class="navbar">
-                <img src="./Imgs/Images.png" class="logo">
+                <img src="Imgs/Images.png" class="logo">
                 <ul>
-                    <li><a href="Index.html">Home</a></li>
-                    <li><a href="Notations.html">Notations</a></li>
-                    <li><a href = "Tutorial1.html">Tutorial</a></li>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="notation">Notations</a></li>
+                    <li><a href="tutorial1">Tutorial</a></li>
                 </ul>
             </div>
             <div class="content">
-                <h1>For the next steps, you need to scan the cube.</h1>
-                <p>This is because there are many possible permutations from this point on.Once you press the button, click W to scan and Q to end the feed.</p>
-                <a href = "http://127.0.0.1:3000/"><button id = "2" >Scan</button></a>
+                <h1>First 2 layers</h1>
+                <div><p>The next algorithm is used to insert an edge piece above a corner without interrupting the corner piece.
+                    Note that the edge piece's end location should be to your left.</p>
+                    <p >The algorithm is U' L' U' L U F U F'</p>
+                    <p >After this step the bottom of the cube should look like this:</p>
+                <img class ="image" src="Imgs/edges.png"></img>
             </div>
+            <a href="tutorial4"><button class = "button">Next</button></a>
         </div>
     </body>
 </html>
+
